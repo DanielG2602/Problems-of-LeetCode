@@ -16,9 +16,4 @@ class Solucao:
                 
         invercionar(root)
         return root
-    
-     def imprimirEmOrdem(self, root: Optional[ArvoreNodulo]):
-        if root:
-            self.imprimirEmOrdem(root.left)
-            print(root.val, end=" ")
-            self.imprimirEmOrdem(root.right)
+
